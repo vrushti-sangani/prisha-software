@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prisha software</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- fevicon -->
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <style>
+        iframe[iframetag] {
+            border: none;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div id="iframeDiv">
+        <iframe src="header.html" iframetag></iframe>
+     </div> -->
+
+    <section class="nav sticky">
+        <div class="logo">
+            <img src="/day3/prisha reg/logo.webp" alt="company logo" style="height: 60px;">
+        </div>
+        <div class="nav-info">
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About-Us</a>
+            <a href="service.html">Services</a>
+            <a href="blog.html">Blog</a>
+            <a href="/day3/prisha reg/index.html" target="_blank">Career</a>
+            <a href="contactus.html">Contact-Us</a>
+        </div>
+    </section>
+    <section class="sec1">
+        <div class="para">
+            <pre>PrishaSoftware is a leading
+        Product
+  Based Software<span class="redfont"> Company</span></pre>
+        </div>
+        <div>
+            <input type="button" class="btn btnred" value="Read More">
+            <input type="button" class="btn btnblue" value="Get in Touch">
+        </div>
+    </section>
+
+    <section class="sec2">
+        <div class="slideshow-container">
+            <div class="slide active">
+                <img src="img1.webp" alt="Image 1">
+            </div>
+            <div class="slide">
+                <img src="img2.webp" alt="Image 2">
+            </div>
+            <div class="slide">
+                <img src="img3.webp" alt="Image 3">
+            </div>
+        </div>
+    </section>
+    <script>
+        const slides = document.querySelectorAll('.slide');
+        let currentSlide = 0;
+
+        function showNextSlide() {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (currentSlide + 1) % slides.length;
+            slides[currentSlide].classList.add('active');
+        }
+
+        setInterval(showNextSlide, 3000); // Change image every 3 seconds
+    </script>
+
+    <section class="sec3">
+        <div class="card">
+            <div class="cardimg1">
+                <img src="card1 (2).png" alt="card1" style="width: 150px;">
+            </div>
+            <div class="text">
+                <h3>Optimal choice</h3>
+                <p>Discover tailored software solutions. Our experts evaluate the market, presenting optimal choices in
+                    project management, CRM, ERP, and more.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cardimg2">
+                <img src="card1 (1).png" alt="card2" style="width: 200px;">
+            </div>
+            <div class="text">
+                <h3>Finest quality</h3>
+                <p>Discover our software solutions renowned for their exceptional quality and performance.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cardimg1">
+                <img src="card1 (3).png" alt="card3" style="width: 180px;">
+            </div>
+            <div class="text">
+                <h3>Time saving</h3>
+                <p>Products designed to save time and provide exceptional value to our customers.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec4">
+        <div class="part1">
+            <div class="redfont" style="font-size: 20px;">Streamline Your Business with Optimized Solutions</div>
+            <div style="font-size: 50px; color:#01358d; font-weight: bold; width: 300px;">Elevate Your Operations with
+            </div><br>
+            <div class="redfont bold" style="font-size: 25px;">Optimized Software Solutions</div><br></br>
+            <div style="font-size: 25px; color: rgb(178, 180, 181);">We specialize in providing tailored tech solutions
+                designed to optimize business processes across various industries. Whether you need web development,
+                mobile apps, or custom software, we've got you covered.</div>
+        </div>
+        <div class="part2">
+            <img src="sec4img.png" alt="image" height="450px">
+        </div>
+    </section>
+
+    <section class="sec5">
+        <div class="sec5div">
+            <div class="circle">
+                <div class="percentage">90%</div>
+            </div>
+            <div>
+                <h3 style="color: black;">User-Centric Design</h3>
+                <p class="center">Intuitive and user-friendly interfaces tailored to meet user needs.</p>
+            </div>
+        </div>
+
+
+        <div class="sec5div">
+            <div class="circle1">
+                <div class="percentage">85%</div>
+            </div>
+            <div>
+                <h3 style="color: black;">Scalability</h3>
+                <p class="center">Built with scalability in mind to grow alongside your business.</p>
+            </div>
+        </div>
+
+        <div class="sec5div">
+            <div class="progress">
+                <div class="circle2">
+                    <div class="percentage">95%</div>
+                </div>
+            </div>
+            <div>
+                <h3 style="color: black;">Reliability</h3>
+                <p class="center">Reliable and robust solutions ensuring uninterrupted operations.</p>
+            </div>
+
+        </div>
+        <div class="sec5div">
+            <div class="circle3">
+                <div class="percentage">80%</div>
+            </div>
+            <div>
+                <h3 style="color: black;">User-Centric Design</h3>
+                <p class="center">Intuitive and user-friendly interfaces tailored to meet user needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec6">
+        <div class="que">
+            <details>
+                <summary class="bgcolor">What software solutions do you offer?</summary>
+                <p> We offer a wide range of software solutions including web development, mobile app development, and
+                    custom software development.</p>
+            </details><br>
+            <details>
+                <summary class="bgcolor">Do you provide ongoing support and maintenance?</summary>
+                <p> Yes, we offer comprehensive support and maintenance services to ensure the smooth functioning of
+                    your software solutions.</p>
+            </details><br>
+            <details>
+                <summary class="bgcolor">Can you develop software tailored to our specific needs?</summary>
+                <p> Yes, we specialize in developing custom software solutions tailored to the unique requirements of
+                    each client.</p>
+            </details>
+        </div>
+        <div class="sec6p2">
+            <div class="redfont" style="font-size: 20px;">Transform Your Business with Innovative Software Solutions
+            </div><br>
+            <div style="font-size: 50px; color:#01358d; font-weight: bold;">Empower Your Enterprise with Our
+                Cutting-Edge Software</div><br>
+            <div style="font-size: 25px; color: rgb(178, 180, 181);">Our software solutions are designed to
+                revolutionize your business operations. From streamlining processes to enhancing efficiency, we offer
+                transformative software services that propel your enterprise forward.</div><br>
+            <input type="button" class="btn btnred" style="padding: 15px;" value="Read More">
+
+        </div>
+    </section>
+
+    <section class="sec7">
+        <div class="sec7p1">
+            <div class="redfont" style="font-size: 20px;">Cutting-Edge Software Solutions</div>
+            <div style="font-size: 50px; color:#01358d; font-weight: bold;">Elevate Your Business with</div>
+            <div class="redfont" style="font-size: 50px; font-weight: bold;">Premium Software Solution</div>
+            <div style="font-size: 25px; color: rgb(178, 180, 181);">We specialize in delivering innovative and
+                top-notch software solutions tailored to meet the unique needs of your business. From web applications
+                to mobile apps,we provide cutting-edge technology solutions that drive growth and success.</div><br><br>
+            <input type="button" class="btn btnred" style="padding: 15px;" value="Learn More">
+        </div>
+        <div class="sec7p2">
+            <img src="sec7img.png" alt="image" width="550px">
+        </div>
+    </section>
+
+    <!-- <div id="iframeDiv">
+        <iframe src="footer.html" iframetag></iframe>
+     </div> -->
+    <footer class="footer">
+        <div class="foot1">
+            <div class="d1">
+                <div class="img">
+                    <img src="logowhite.png " alt="logo" style="height: 60px;">
+                </div>
+                <div class="text">
+                    <p style="font-size: 17px;">We are providing premium quality Services and Softwares</p>
+                </div>
+                <div class="icon">
+                    <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="d2">
+                <h2 style="color: white;">Contact Info</h2>
+                <div><i class="fa-solid fa-location-dot"></i>1809,Wings Bussiness Bay, Umiya Chowk, 150ft Ring Road,
+                    Mavdi, Rajkot, Gujarat 360004</div>
+                <div><i class="fa-solid fa-clock"></i>Monday-Saturday : 9am-7pm</div>
+                <div><i class="fa-solid fa-envelope"></i>info@Prishasoftware.com</div>
+                <div><i class="fa-duotone fa-solid fa-phone"></i>63536 51151</div>
+            </div>
+            <div class="d3">
+                <h2 style="color: white;">Pages</h2>
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Services</a>
+                <a href="#">Blog</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <div class="d4">
+                <h2 style="color: white;">Services</h2>
+                <a href="#">ERP Solution</a>
+                <a href="#">Android/iOS Development</a>
+                <a href="#">Web Application</a>
+                <a href="#">Web Services/Hosting</a>
+                <a href="#">Accounting Software</a>
+                <a href="#">Digital Marketing</a>
+            </div>
+        </div>
+        <div class="foot2">
+            <p>Copyright ©2025 Prisha Software Pvt Ltd. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
